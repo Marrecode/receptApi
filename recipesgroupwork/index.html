@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Random recipe generator</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <img src="logo.svg" alt="logo" class="logo">
+        <h1>Random recipe generator</h1>
+
+
+        <form class="formRecipe">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-12">
+                        <!--<label for="Recipes">Recipes</label>
+                         <input type="recipe" class="form-control" id="exampleInputRecipe" aria-describedby="recipeHelp" 
+                            placeholder="Enter recipe">-->
+                    </div>
+
+                </div>
+            </div>
+            <button id="generateNewRecipe" class="btn btn-success" type="submit">Surprise me!</button>
+        </form>
+
+        <div class="recipe-wrapper">
+
+            <div class="img-body">
+                <div class="image-cropper">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/31/09/30/raspberry-2023404_1280.jpg"
+                        class="card-img-top" alt="">
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div class="card-body">
+                    <h2 class="card-title">Dish title</h2>
+                    <div class="serving-wrapper">
+                        <div class="serving">
+                            <p>🍽 2</p>
+
+                        </div>
+                        <div class="estimated-time">
+                            <p>🕣 30min</p>
+
+
+                        </div>
+                    </div>
+                    <h3>Ingredients</h3>
+                    <ul class="ingredients" id="ingredientList">
+                        <li>Ingredient 1</li>
+                        <li>Ingredient 2</li>
+                        <li>Ingredient 3</li>
+                        <li>Ingredient 4</li>
+                        <li>Ingredient 5</li>
+                        <li>Ingredient 6</li>
+                    </ul>
+
+                    <h3>Instructions</h3>
+                    <p class="card-text instructions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                        tempora veniam cumque quo iste eligendi aliquam, maxime recusandae ipsa dolores dolore quia
+                        itaque
+                        nemo molestiae!</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

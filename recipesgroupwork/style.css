@@ -1,0 +1,103 @@
+body {
+    background-color: #ffc28b;
+    font-family: 'Playfair Display', serif;
+    
+
+
+    /*background-image: url("eat-321671_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+}
+/*.container {
+	padding: 1em;
+	height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+	/*border-radius: 1em;
+	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1),
+	12px 12px 12px 0 rgba(0, 0, 0, 0.3);
+  }*/
+
+
+
+h1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+#generateNewRecipe {
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.img-body {
+    background: transparent;
+    
+}
+
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 1rem auto;
+}
+
+.card-img-top {
+    
+    /* margin: 1rem auto;
+    width: 70%;
+    display: block; */
+    /* display: inline; */
+    width: auto; 
+    margin: 0 auto;
+    height: 100%;
+    
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #396 !important;
+    border: none !important;
+}
+
+.serving-wrapper {
+    display: flex;
+}
+
+.serving,
+.estimated-time {
+    margin: 0 0.8rem 0 0;
+}
